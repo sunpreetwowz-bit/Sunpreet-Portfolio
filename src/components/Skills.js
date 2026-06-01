@@ -1,18 +1,18 @@
 import React from 'react';
 import './Skills.css';
-import { CgCPlusPlus } from 'react-icons/cg';
+//import { CgCPlusPlus } from 'react-icons/cg';
 import {
   DiHtml5,
   DiCss3,
   DiJavascript1,
   DiReact,
-  DiNodejs,
-  DiMongodb,
+  //DiNodejs,
+  //DiMongodb,
 } from 'react-icons/di';
 import { FaBootstrap } from 'react-icons/fa';
 import {
   SiVisualstudiocode,
-  SiExpress,
+  //SiExpress,
   SiPhp,
   SiLaravel,
   SiWordpress,
@@ -20,8 +20,8 @@ import {
   SiMysql,
   SiJquery,
   SiPostman,
-  SiTailwindcss,
-  SiFigma,
+  //SiTailwindcss,
+  //SiFigma,
   SiGit,
   SiGithub,
   SiCodeigniter
