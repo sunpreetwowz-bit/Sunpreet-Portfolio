@@ -1,52 +1,82 @@
 #skills {
   background: var(--bg-secondary);
+  position: relative;
+}
+
+#skills::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 60% 50% at 50% 0%, rgba(139, 92, 246, 0.08), transparent 60%);
+  pointer-events: none;
 }
 
 .skills {
   width: var(--container);
   color: var(--text-primary);
+  position: relative;
 }
 
 .skill-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(108px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
   gap: 1rem;
   width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
 }
 
-.skills .tech-icons {
+.skill-chip {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  aspect-ratio: 1;
-  max-width: 120px;
-  margin: 0 auto;
-  font-size: 2.5rem;
-  color: var(--text-secondary);
-  background: var(--bg-card);
+  gap: 0.65rem;
+  padding: 1.35rem 0.75rem;
+  border-radius: var(--radius-lg);
   border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  padding: 1.5rem;
-  transition: color var(--transition), border-color var(--transition), transform var(--transition), box-shadow var(--transition);
+  background: var(--bg-glass);
+  backdrop-filter: blur(12px);
+  transition: transform var(--transition), border-color var(--transition), box-shadow var(--transition), background var(--transition);
+  cursor: default;
 }
 
-.skills .tech-icons:hover {
-  color: var(--accent-light);
+.skill-chip:hover {
+  transform: translateY(-6px);
   border-color: var(--border-strong);
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-sm);
+  background: rgba(6, 182, 212, 0.06);
+  box-shadow: 0 12px 32px var(--accent-glow);
+}
+
+.skill-chip-icon {
+  font-size: 2.25rem;
+  color: var(--text-secondary);
+  transition: color var(--transition), transform var(--transition);
+}
+
+.skill-chip:hover .skill-chip-icon {
+  color: var(--accent-light);
+  transform: scale(1.1);
+}
+
+.skill-chip-label {
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-align: center;
+  letter-spacing: 0.02em;
+  transition: color var(--transition);
+}
+
+.skill-chip:hover .skill-chip-label {
+  color: var(--text-primary);
 }
 
 @media (max-width: 500px) {
   .skill-cards {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0.75rem;
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  .skills .tech-icons {
-    font-size: 1.75rem;
-    padding: 1rem;
+  .skill-chip-icon {
+    font-size: 1.85rem;
   }
 }

@@ -34,8 +34,8 @@ function Nav() {
             <li className="nav-item">
               <a className="nav-link" href="#project">Projects</a>
             </li>
-            <li className="nav-item nav-cta">
-              <a className="nav-link" href="#contact">Hire me</a>
+            <li className="nav-item">
+              <a className="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>

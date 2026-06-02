@@ -1,0 +1,98 @@
+#contact {
+  background: linear-gradient(180deg, transparent 0%, rgba(15, 22, 35, 0.6) 100%);
+}
+
+.contact {
+  width: var(--container);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+  color: var(--text-primary);
+}
+
+.contact-intro .section-title {
+  text-align: left;
+}
+
+.contact-intro p {
+  margin-top: 1rem;
+  color: var(--text-secondary);
+  font-size: 1rem;
+  line-height: 1.7;
+  max-width: 28rem;
+}
+
+.contact form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding: 2rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.contact form label {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  padding: 0.875rem 1rem;
+  font-family: inherit;
+  font-size: 0.9375rem;
+  color: var(--text-primary);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  outline: none;
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+
+.contact form input::placeholder,
+.contact form textarea::placeholder {
+  color: var(--text-muted);
+}
+
+.contact form input:focus,
+.contact form textarea:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-glow);
+}
+
+.contact form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.contact form button {
+  align-self: flex-start;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 900px) {
+  .contact {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .contact-intro .section-header--left {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-intro p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}

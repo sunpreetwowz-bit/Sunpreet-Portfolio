@@ -29,35 +29,9 @@ function Contact() {
         <div className="contact-intro" data-aos="fade-up">
           <div className="section-header section-header--left">
             <span className="section-eyebrow">Get in touch</span>
-            <h2 className="section-title">Let&apos;s build something great</h2>
+            <h2 className="section-title">Contact Me</h2>
           </div>
-          <p>
-            Have a project in mind, need a developer for your team, or want to discuss a new idea?
-            Drop me a message — I typically respond within 24 hours.
-          </p>
-          <div className="contact-details">
-            <div className="contact-detail-item">
-              <i className="fa-solid fa-envelope" />
-              <div>
-                <strong>Email</strong>
-                <span>sunpreet.wowz@gmail.com</span>
-              </div>
-            </div>
-            <div className="contact-detail-item">
-              <i className="fa-brands fa-linkedin-in" />
-              <div>
-                <strong>LinkedIn</strong>
-                <span>sunpreet-shah-78544291</span>
-              </div>
-            </div>
-            <div className="contact-detail-item">
-              <i className="fa-solid fa-location-dot" />
-              <div>
-                <strong>Based in</strong>
-                <span>India · Open to remote work</span>
-              </div>
-            </div>
-          </div>
+          <p>Have a project in mind or want to collaborate? Send a message and I&apos;ll get back to you.</p>
         </div>
         <form ref={form} onSubmit={sendEmail} data-aos="fade-up" data-aos-delay="100">
           <label htmlFor="name">Name</label>

@@ -1,10 +1,10 @@
 .navbar {
-  padding: 0.75rem 0;
-  background: rgba(7, 11, 18, 0.75) !important;
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  padding: 0.875rem 0;
+  background: rgba(3, 7, 18, 0.72) !important;
+  backdrop-filter: blur(20px) saturate(160%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
   border-bottom: 1px solid var(--border);
-  transition: background var(--transition);
+  transition: all var(--transition);
 }
 
 .navbar .container {
@@ -13,10 +13,11 @@
 }
 
 .navbar-brand {
-  font-size: 1.25rem;
-  font-weight: 700;
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 800;
   color: var(--text-primary) !important;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.03em;
 }
 
 .navbar-brand span {
@@ -27,14 +28,16 @@
 }
 
 .navbar-nav {
-  gap: 0.25rem;
+  gap: 0.35rem;
+  align-items: center;
 }
 
 .nav-item .nav-link {
   color: var(--text-secondary) !important;
-  font-size: 0.9375rem;
+  font-family: var(--font-display);
+  font-size: 0.9rem;
   font-weight: 500;
-  padding: 0.5rem 1rem !important;
+  padding: 0.5rem 0.95rem !important;
   border-radius: var(--radius-sm);
   background: transparent !important;
   border: none !important;
@@ -44,9 +47,25 @@
 
 .nav-item .nav-link:hover {
   color: var(--text-primary) !important;
-  background: var(--bg-card) !important;
-  transform: none;
-  box-shadow: none;
+  background: rgba(255, 255, 255, 0.05) !important;
+}
+
+.nav-cta {
+  margin-left: 0.75rem !important;
+}
+
+.nav-cta .nav-link {
+  background: var(--gradient) !important;
+  color: #fff !important;
+  padding: 0.55rem 1.25rem !important;
+  border-radius: var(--radius-md) !important;
+  box-shadow: 0 6px 20px var(--accent-glow);
+}
+
+.nav-cta .nav-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px var(--accent-glow) !important;
+  color: #fff !important;
 }
 
 .navbar-toggler {
@@ -58,12 +77,20 @@
   box-shadow: 0 0 0 2px var(--accent-glow);
 }
 
+@media (max-width: 991px) {
+  .nav-cta {
+    margin-left: 0 !important;
+    margin-top: 0.5rem;
+  }
+}
+
 @media (max-width: 575px) {
   .navbar-collapse {
     margin-top: 1rem;
-    padding: 1rem;
-    background: var(--bg-elevated);
-    border-radius: var(--radius-md);
+    padding: 1.25rem;
+    background: var(--bg-glass);
+    border-radius: var(--radius-lg);
     border: 1px solid var(--border);
+    backdrop-filter: blur(16px);
   }
 }
