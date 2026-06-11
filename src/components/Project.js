@@ -10,6 +10,20 @@ const projects = [
     tags: ['Laravel', 'Business'],
   },
   {
+    id: 'jobbot',
+    title: 'Job BOT',
+    image: '/project-images/jobbotai.png',,
+    link: 'https://job-boot.vercel.app/',
+    tags: ['React','Node JS' 'JavaScript'],
+  },
+  {
+    id: 'Job Seeker',
+    title: 'Career ',
+    image: '/project-images/careervibe.png',
+    link: 'https://jobportal.great-site.net/',
+    tags: ['Laravel', 'Business','Job Portal'],
+  },
+  {
     id: 'tagoretheater',
     title: 'Tagore Theater Chandigarh',
     image: '/project-images/tagoretheater.png',
@@ -100,6 +114,14 @@ const projects = [
     link: 'https://react-calculator-nine-flame.vercel.app/',
     tags: ['React', 'JavaScript'],
   },
+  {
+    id: 'salaryhike',
+    title: 'Salary Hike Calculator Application',
+    image: '/project-images/salaryhike.png',,
+    link: 'https://salary-hike-calculator-rouge.vercel.app/',
+    tags: ['React', 'JavaScript'],
+  },
+  
 ];
 
 function Project() {
