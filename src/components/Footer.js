@@ -17,7 +17,7 @@ function Footer() {
             /* <a href="https://github.com/sunpreetwowz-bit" target="_blank" rel="noreferrer" aria-label="GitHub">
               <i className="fa-brands fa-github" />
             </a> */
-            <a href="mailto:skillwavetechnologiesdev@gmail.comcom" aria-label="Email">
+            <a href="mailto:skillwavetechnologiesdev@gmail.com" aria-label="Email">
               <i className="fa-solid fa-envelope" />
             </a>
           </div>
