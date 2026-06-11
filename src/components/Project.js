@@ -12,9 +12,9 @@ const projects = [
   {
     id: 'jobbot',
     title: 'Job BOT',
-    image: '/project-images/jobbotai.png',,
+    image: '/project-images/jobbotai.png',
     link: 'https://job-boot.vercel.app/',
-    tags: ['React','Node JS' 'JavaScript'],
+    tags: ['React','NodeJS','JavaScript'],
   },
   {
     id: 'Job Seeker',
@@ -117,7 +117,7 @@ const projects = [
   {
     id: 'salaryhike',
     title: 'Salary Hike Calculator Application',
-    image: '/project-images/salaryhike.png',,
+    image: '/project-images/salaryhike.png',
     link: 'https://salary-hike-calculator-rouge.vercel.app/',
     tags: ['React', 'JavaScript'],
   },
