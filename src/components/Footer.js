@@ -11,13 +11,13 @@ function Footer() {
           <h3 className="gradient-text">Sunpreet Shah</h3>
           <p>Senior Web Developer crafting scalable apps, eCommerce platforms, and client websites worldwide.</p>
           <div className="social">
-            <a href="https://www.linkedin.com/in/sunpreet-shah-78544291/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            /* <a href="https://www.linkedin.com/in/sunpreet-shah-78544291/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
               <i className="fa-brands fa-linkedin-in" />
-            </a>
-            <a href="https://github.com/sunpreetwowz-bit" target="_blank" rel="noreferrer" aria-label="GitHub">
+            </a> */
+            /* <a href="https://github.com/sunpreetwowz-bit" target="_blank" rel="noreferrer" aria-label="GitHub">
               <i className="fa-brands fa-github" />
-            </a>
-            <a href="mailto:sunpreetckd@gmail.com" aria-label="Email">
+            </a> */
+            <a href="mailto:skillwavetechnologiesdev@gmail.comcom" aria-label="Email">
               <i className="fa-solid fa-envelope" />
             </a>
           </div>
@@ -35,7 +35,7 @@ function Footer() {
         <div className="links">
           <h3>Connect</h3>
           <ul>
-            <li><a href="mailto:sunpreetckd@gmail.com">sunpreetckd@gmail.com</a></li>
+            <li><a href="mailto:skillwavetechnologiesdev@gmail.com">skillwavetechnologiesdev@gmail.com</a></li>
             <li><a href="#contact">Start a project</a></li>
           </ul>
         </div>
