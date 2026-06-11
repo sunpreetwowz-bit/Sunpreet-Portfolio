@@ -17,7 +17,7 @@ function Footer() {
             <a href="https://github.com/sunpreetwowz-bit" target="_blank" rel="noreferrer" aria-label="GitHub">
               <i className="fa-brands fa-github" />
             </a>
-            <a href="mailto:sunpreet.wowz@gmail.com" aria-label="Email">
+            <a href="mailto:sunpreetckd@gmail.com" aria-label="Email">
               <i className="fa-solid fa-envelope" />
             </a>
           </div>
@@ -35,7 +35,7 @@ function Footer() {
         <div className="links">
           <h3>Connect</h3>
           <ul>
-            <li><a href="mailto:sunpreet.wowz@gmail.com">sunpreet.wowz@gmail.com</a></li>
+            <li><a href="mailto:sunpreetckd@gmail.com">sunpreetckd@gmail.com</a></li>
             <li><a href="#contact">Start a project</a></li>
           </ul>
         </div>
