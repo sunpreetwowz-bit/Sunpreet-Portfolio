@@ -44,12 +44,12 @@ function Header() {
             </a>
           </div>
           <div className="social-icons" data-aos="fade-up" data-aos-delay="300">
-            /* <a href="https://www.linkedin.com/in/sunpreet-shah-78544291/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/sunpreet-shah-78544291/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
               <i className="fa-brands fa-linkedin" />
-            </a> */
-            /* <a href="https://github.com/sunpreetwowz-bit" target="_blank" rel="noreferrer" aria-label="GitHub">
+            </a>
+            <a href="https://github.com/sunpreetwowz-bit" target="_blank" rel="noreferrer" aria-label="GitHub">
               <i className="fa-brands fa-github" />
-            </a> */
+            </a>
           </div>
         </div>
         <div className="hero-visual" data-aos="fade-left" data-aos-delay="150">
